@@ -1,0 +1,23 @@
+# Build output
+/go-task-manager
+/go-task-manager.exe
+/main
+/main.exe
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+/coverage.html
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
